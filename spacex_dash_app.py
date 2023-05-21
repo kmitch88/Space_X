@@ -59,7 +59,7 @@ dcc.Dropdown(id='site-dropdown',
                                 html.Div(dcc.Graph(id='success-payload-scatter-chart')),
                                 ])    
 
-#TASK 2 continuos:
+#TASK 2 continued:
 #Add a callback function to render success-pie-chart basead on selected site dropdown
         
 @app.callback(Output(component_id='success-pie-chart', component_property='figure'),
@@ -80,7 +80,7 @@ def get_pie_chart(entered_site):
         fig=px.pie(filtered_df,values='class count',names='class',title=f"Total Success Launches for site {entered_site}")
         return fig
                                 
-# TASK 4 continuos:
+# TASK 4 continued:
 # Add a callback function for `site-dropdown` and `payload-slider` as inputs, `success-payload-scatter-chart` as output
 @app.callback(Output(component_id='success-payload-scatter-chart',component_property='figure'),
                 [Input(component_id='site-dropdown',component_property='value'),
