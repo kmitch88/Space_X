@@ -33,7 +33,7 @@ dcc.Dropdown(id='site-dropdown',
             value='ALL',
             placeholder='Select a Launch Site Here',
             searchable=True,
-            style={'width':'80%','padding':'3px','font-size':'20px','text-align-last':'center'}
+            style={'width':'80%', 'margin': '0 auto', 'padding':'3px','font-size':'20px','text-align-last':'center'}
              ),
                                                                 
             #html.Br(),
