@@ -1,1 +1,3 @@
 # Space_X
+
+In this project, I explore the commercial space industry with a focus on SpaceX and its cost advantage in rocket launches due to first stage reuse. I highlight SpaceX's achievements, such as sending spacecraft to the International Space Station, launching the Starlink satellite internet constellation, and conducting manned missions to space. By employing methodologies including data gathering, data wrangling, data visualization, EDA using SQL and Pandas, and machine learning, I aim to predict the likelihood of first stage reuse. These predictions have implications for determining launch pricing and advancing reusable rocket technology.​
